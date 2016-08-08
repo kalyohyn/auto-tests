@@ -1,0 +1,63 @@
+---
+dashboard:
+  name: kalyohyn dash
+  layout: a
+chart_widgets:
+- name: test import
+  enabled: true
+  control_line_options:
+    :type: :user_defined
+    :lower_control_line: 10.0
+    :upper_control_line: 11.0
+  title: test import
+  y_axis_title: test import
+  chart_type: series_zoom
+  gap: 10
+  summed_totals: true
+  start_time: 1440
+  end_time: 0
+  logarithmic: false
+  daily_view: false
+  y_axis_scale:
+    :min: 
+    :max: 
+  highlight_reboot_window: false
+  reboot_window_start_time: ''
+  series_sort_type: alphabetically
+  primary_series_id: 8759
+  reboot_window_end_time: ''
+  xy_position: {}
+  secondary_series_id: 
+  incident_elements: []
+  stack_elements: []
+  chart_series:
+  - id: 8759
+    name: test-import
+    database_name: REX Search Throughput By Client
+    title: test import
+    start_date: 0
+    color: "#752828"
+    multi_dimensional_data: !ruby/hash-with-ivars:ActionController::Parameters
+      elements:
+        group_hashes: &1
+        - f972a62bd32a04bea9bbc49cc9ae126b
+        value_group_show_future: 
+        value_group_bind: client
+        bind_chart_type: series
+        upcase_downcase_series_names: 
+        hide_primary_series_name: false
+        multi_data_on_primary: false
+      ivars:
+        :@permitted: false
+        :@converted_arrays: !ruby/object:Set
+          hash:
+            *1: true
+    inner_zero_values: true
+    series_type: area
+    label_title: test import
+    label_format: "%"
+    label_float: left
+    value_precision: 2
+    show_source_query: true
+tabular_widgets: []
+calendar_widgets: []

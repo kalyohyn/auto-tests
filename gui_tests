@@ -1,0 +1,17 @@
+staging:                               localhost:
+1. my_profile_spec                     1. metric_spec
+2. logs_spec						   2. manage_home_page_spec 		
+3. support_spec						   3. manage_users_spec	
+4. tokens_spec						   4. cleaners_spec		
+5. manage_actions_spec       		   5. manage_tenants_spec	
+6. user_rights_spec
+7. manage_alarm_dashboatds_spec
+8. manage_event_dashboards_spec
+9. service_desks_dashboard_spec
+10. manage_alarms_spec
+11. manage_notifications_spec
+12. manage_landing_page_spec
+13. upload_alarms_spec
+14. dashboards_spec
+15. 
+
